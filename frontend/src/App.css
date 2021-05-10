@@ -1,0 +1,63 @@
+body {
+  background-image: url(../src/img/map6.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conainer {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 15px;
+}
+
+.country {
+  /* display: flex; */
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(51, 51, 51, 0.089);
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 150px;
+  height: 100px;
+
+}
+
+select {
+  margin-left: 15%;
+  margin-top: 20%;
+}
+
+
+.search {
+  margin-top: 16%;
+}
+
+.country-pays {
+  margin-left: 25%;
+  text-align: center;
+}
+
+#navbarNav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#navbarNav a:hover {
+  color: rgb(49, 121, 179);
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
